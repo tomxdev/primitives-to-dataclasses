@@ -14,3 +14,11 @@ Key Features for a NamedTuple.
 * **Is dynamically created**
   * namedtuple('name', *args)
   
+## Namedtuple with typing
+Key Features for a NamedTuple with typing.
+* **Imutable**
+  * Maybe you don't want
+* **Extension**
+  * Cannot extend tuples(inheritance).
+* The representation of the object is always complete.
+* Cannot create methods or functions.
