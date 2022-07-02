@@ -22,3 +22,14 @@ Key Features for a NamedTuple with typing.
   * Cannot extend tuples(inheritance).
 * The representation of the object is always complete.
 * Cannot create methods or functions.
+
+## Value Object
+There is a pattern called 'Value Object', which aims to create a class to represent the domain, that is, we must create an object to represent an abstraction.
+
+With this abstraction we have some advantages:
+* **Mutable/Imutable**
+  * Leaving the decision with the developer.
+* **Extension**
+  * Allowed use of inheritance.
+* **Methods**
+  * Allowed use of methods.
