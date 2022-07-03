@@ -40,3 +40,6 @@ To have the same behavior as a namedtuple you need to implement the methods belo
 * **__eq__**
 * **__repr__**
 
+
+## Dataclasses
+Dataclasses were created with the aim of facilitating domain-specific objects, and through them we have the behavior of a Value Object and a namedtuple together.
