@@ -33,3 +33,10 @@ With this abstraction we have some advantages:
   * Allowed use of inheritance.
 * **Methods**
   * Allowed use of methods.
+
+
+## Value Object with the same behaviour as a namedtuple object
+To have the same behavior as a namedtuple you need to implement the methods below:
+* **__eq__**
+* **__repr__**
+
